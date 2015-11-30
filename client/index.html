@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>socktio test</title>
+</head>
+<body>
+	<h1>socket.IO Chat Demo</h1>
+	<div class="wrap chatroom">
+		<div class="nickname">
+			<form action="" class="set-nickname">
+				<label for="nick">输入昵称后进入聊天室</label>
+				<input type="text" class="nick" name="nick" placeholder="昵称">
+				<button type="submmit">进入</button>
+				<p class="nickname-err">该昵称已经有人使用</p>
+			</form>
+		</div>
+		<div class="messages">
+			<div class="nicknames">
+				<span>当前在线: </span>
+				<b>小明</b><b>小黄</b>
+			</div>
+			<div class="lines">
+				<p><b>小明: </b>我好像又长高了!</p>
+				<p><b>小黄: </b>我好像又长高了!</p>
+				<p><b>我:</b>你们好厉害</p>
+			</div>
+		</div>
+		<form action="" class="send-message">
+			<span class="to">发送给<b>所有人</b>:</span>
+			<input type="text" class="message" placeholder="在这里输入消息发送">
+			<button>发送</button>
+		</form>
+	</div>
+</body>
+</html>
